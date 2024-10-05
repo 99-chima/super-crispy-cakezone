@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+:root{
+--slantedText:"Roboto";
+--secondaryslantedText:"Grand Hotel";
+--primaryColor:#B5FF33;
+--mainDark:#3a3e3b;
+--mainWhite:#fff;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    overflow-y: hidden;
+}
+/* contact section*/
+.first-contact{
+    background: #FEF5E7;
+    width: 33.33%;
+    display: inline-block;
+    padding-top: 1rem;
+    padding-left: 4rem;
+    z-index: 1;
+    }
+#mail-icon{
+    color: var(--primaryColor) ;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.Email{
+    position: relative;
+    margin-top: -1.5rem;
+    margin-left: 1rem;
+    padding-left: 2rem;
+    bottom: 0.5rem;
+    text-transform: uppercase;
+}
+.info{
+    position: relative;
+    margin-left: 2rem;
+    bottom: 0.6rem;
+    left: 1rem;
+}
+.cake{
+    background-color: var(--primaryColor);
+    width: 33.33%;
+    height: 60px;
+    display: inline-block;
+    margin-left: -0.5rem;
+    margin-top: -2rem;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    z-index: 1;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -5px;
+   }
+.Cakezone{
+    position: relative;
+    margin-top: -1.2rem;
+    margin-left: 1rem;
+    padding-left: 5rem;
+    bottom: 0.5rem;
+    color: var(--mainWhite);
+    text-transform: uppercase;
+    font: 1.5rem var(--slantedText);
+}
+#birthday{
+    font-size: 1.5rem;
+    padding-top:0.2rem;
+    padding-left: 4rem;
+}
+.second-contact{
+  margin-left: 53rem ;
+  margin-top: -4rem;
+  background: #FEF5E7;
+  height: 60px;
+  padding-left: 4rem;
+  display: block;
+  z-index: 1;
+}
+#mobile-icon{
+    position: relative;
+    font-size: 1.5rem;
+    top: 1.2rem;
+    left: 1rem;
+    color: var(--primaryColor);
+
+}
+.mobile{
+    position: relative;
+    bottom: 1rem;
+    left: 3rem;
+    text-transform: uppercase;
+    font-family: var(--slantedText);
+    
+}
+.number{
+    position: relative;
+    left: 2.9rem;
+    bottom: 0.8rem;
+}
+/*contact-section end*/
+/*nav-bar section*/
+.navbar{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: var(--mainDark);
+    height: 80px;
+    padding-top: 2rem;
+    padding-left: 20rem;
+    transition: var(--mainTransition);
+    text-transform: uppercase;
+    font-family: var(--slantedText);
+    color: var(--mainWhite);
+    display: block;
+    cursor: pointer;
+    z-index: 1;}
+.Home{
+    position: relative;}
+.about{
+   position: relative;
+   margin-left: 3.2rem;
+   top: -1.2rem;
+   padding-left: 1rem;}
+.menu{
+    position: relative;
+    margin-left: 9.2rem;
+    top: -2.4rem;
+    padding-left: 1rem;}
+.chefs{
+    position: relative;
+    margin-left: 18.1rem;
+    top: -3.55rem;
+    padding-left: 1rem;
+}
+.pages{
+    position: relative;
+   margin-left: 26.5rem;
+   top: -4.75rem;
+   padding-left: 1rem;
+}
+.contact{
+    position: relative;
+    margin-left: 31rem;
+    top: -5.95rem;
+    padding-left: 1rem;
+}
+/*nav-bar section end*/
+/*header section*/
+.header{
+    min-height: 100vh;
+    background: url(./images/a2c183f0-748a-4e8f-aec7-62b5506079ba.jpeg) center/cover no-repeat fixed;
+   position: relative;
+}
+    .banner{
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        text-align:center;
+        transform: translate(-50%,-50%);
+    }
+    .banner-subtitle{
+        font-size: 3.3rem;
+        font-family: var(--secondaryslantedText);
+        color: var(--primaryColor);
+        margin-top: 2rem;
+        margin-right: 3.6rem;
+    }
+    .banner-title{
+        font-size: 4rem;
+        font-family: var(--slantedText);
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    .Cakezone-subtitle{
+        position: relative;
+        font-size: 1.5rem;
+        font-family: var(--slantedText);
+        color: #fff;
+        text-transform: uppercase;
+        top: 0.5rem;
+    }
+    a{
+        text-decoration: none;
+        color: var(--mainWhite);
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .banner-btn{
+        display: inline-block;
+        background-color: var(--primaryColor);
+        background-size: 2rem;
+        font-size: 1.5rem;
+        padding:1rem 2.5rem;
+        margin-top: 2.5rem;
+       outline: 2px solid var(--mainWhite);
+       outline-offset: -9px;
+       cursor: pointer;
+}
+#video-icon{
+    font-size: 2.5rem;
+    color: var(--mainWhite);
+    margin-left: 2rem;
+    padding:1rem 0.9rem;
+    border: 2px solid rgba(0,0, 0, 0.157);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.video{
+    position: relative;
+    margin-left: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    bottom: 1.5rem;
+}
+/*header-section end*/
+/*about section*/
+.about-section{
+    text-align: center;
+    padding-top: 2rem;
+    }
+    .about-us{
+        font-family: var(--secondaryslantedText);
+        color: var(--primaryColor);
+        font-size: 2rem;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+    .title{
+        font-family: var(--slantedText);
+        color: var(--mainDark);
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+.sucess{
+    background: url(./images/9c15a545-020d-4d4b-bb9b-3b6973dea35a.jpeg) no-repeat;
+    background-size: contain;
+    margin-left: 8rem;
+
+}
+.head{
+    padding-left: 27rem;
+    font-family: var(--slantedText);
+    color: var(--mainDark);
+    font-weight: bold;
+}
+.p{
+    padding-left: 27rem;
+    font-family: var(--slantedText);
+    line-height: 1.5rem;
+    padding-top: 1rem;
+}
+#heart-icon{
+    margin-left: 27rem;
+    margin-top: 1rem;
+    background: var(--primaryColor) 2px;
+    color: var(--mainWhite);
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -5px;
+}
+.healthy{
+    padding-left: 27rem;
+    padding-top: 1rem;
+    font-family: var(--slantedText);
+    text-transform: uppercase;
+    }
+    .pa{
+        padding-left: 27rem;
+        line-height: 1.5rem;
+    }
+   #award{
+    margin-left: 27rem;
+    margin-top: 1rem;
+    background: var(--primaryColor) 2px;
+    color: var(--mainWhite);
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -5px;
+   }
+    .winning{
+        padding-left: 27rem;
+        font-family: var(--slantedText);
+        text-transform: uppercase;
+    }
+    .pa-2{
+        padding-left: 27rem;
+        line-height: 1.3rem;
+        padding-top: 0.1rem;
+    }
+.profit{
+    position: relative;
+    background: var(--mainDark);
+    padding-top: 1.2rem;
+    padding-left: 5rem;
+    height: 150px;
+    z-index: 1;
+}
+#star{
+    position: relative;
+    top: 0.5rem;
+    padding-bottom: 1rem;
+    background: var(--primaryColor) 2px;
+    padding: 1rem 1rem;
+    color: var(--mainWhite);
+    font-size: 1.5rem;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -5px;
+}
+.expreience{
+    position: relative;
+    left: 4rem;
+    bottom: 3.4rem;
+    padding-left: 1rem;
+    color: var(--primaryColor);
+    text-transform: uppercase;
+}
+#cookie{
+    position: relative;
+    left: 15rem;
+    bottom: 6.3rem;
+    background: var(--primaryColor) 2px;
+    padding: 1rem 1rem;
+    color: var(--mainWhite);
+    font-size: 1.5rem;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -5px;
+}
+.specialist{
+    position: relative;
+    left: 20rem;
+    bottom: 10.1rem;
+    color: var(--primaryColor);
+    text-transform: uppercase;
+}
+#check{
+    position: relative;
+    left: 32rem;
+    bottom: 12.8rem;
+    background: var(--primaryColor) 2px;
+    padding: 1rem 1rem;
+    color: var(--mainWhite);
+    font-size: 1.5rem;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -5px;
+}
+.project{
+    position: relative;
+    left: 36rem;
+    bottom: 16.5rem;
+    padding-left: 1rem;
+    color: var(--primaryColor);
+    text-transform: uppercase;
+}
+#cup{
+    position: relative;
+    left: 50rem;
+    bottom: 19.5rem;
+    background: var(--primaryColor) 2px;
+    padding: 1rem 1rem;
+    color: var(--mainWhite);
+    font-size: 1.5rem;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -5px;
+}
+.cleints{
+    position: relative;
+    left: 54rem;
+    bottom: 23rem;
+    padding-left: 1rem;
+    color: var(--primaryColor);
+    text-transform: uppercase;
+}
+.numbers-1{
+    position: relative;
+    left: 5rem;
+    bottom: 2.8rem;
+    color: var(--mainWhite);
+    font-weight: bold;
+}
+.numbers-2{
+    position: relative;
+    left: 20rem;
+    bottom: 9.5rem;
+    color: var(--mainWhite);
+    font-weight: bold;
+}
+.numbers-3{
+    position: relative;
+    left: 37rem;
+    bottom: 16rem;
+    color: var(--mainWhite);
+    font-weight: bold;
+}
+.numbers-4{
+    position: relative;
+    left: 55rem;
+    bottom: 22.5rem;
+    color: var(--mainWhite);
+    font-weight: bold;
+}
+/*about-section end*/
+/*menu-section start*/
+.menu-section{
+    text-align: center;
+    padding-top: 2rem;
+}
+.menu-subtitle{
+    font-family: var(--secondaryslantedText);
+        color: var(--primaryColor);
+        font-size: 2rem;
+        text-transform: capitalize;
+        font-weight: bold;
+}
+.menu-title{
+    font-family: var(--slantedText);
+        color: var(--mainDark);
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        font-weight: bold;
+   }
+   .price{
+    font-size: 1.5rem;
+    color: var(--primaryColor);
+    background-color: var(--mainDark);
+    display: inline-block;
+    position: absolute;
+    margin-top: 7.4rem;
+    margin-left: 8.8rem;
+}
+.image{
+    padding-left: 6rem;
+}
+.products{
+    background: #FEF5E7;
+    width: 270px;
+    height: 150px;
+    display: inline-block;
+    padding-top: 2rem;
+    padding-left: 0.5rem;
+    margin-left: 1rem;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -7px;
+}
+.product-title1{
+    font-size: 1.5rem;
+    color: var(--mainDark);
+    font-family: var(--slantedText);
+    text-transform: uppercase;
+   }
+   .product-info1{
+    line-height: 1.5rem;
+    margin-top: 1rem;
+   }
+   .second-product{
+    margin-top: -155px;
+    margin-left: 550px;
+   }
+   /*menu section end*/
+   /*cards section*/
+.Birthday-cake{
+    margin-left: 10rem;
+    background: var(--primaryColor);
+    width: 300px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    text-align: center;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -5px;
+}
+.Cake{
+    text-transform: uppercase;
+    font-family: var(--slantedText);
+}
+.cakeP{
+    line-height: 1.4rem;
+    padding-top: 0.5rem;
+    color: var(--mainWhite);
+}
+.cake-detail{
+    text-transform: uppercase;
+    padding-top: 1rem;
+}
+#arrow{
+    position: relative;
+    bottom: 1rem;
+    left: 3.5rem;
+}
+.Wedding-cake{
+    margin-left: 31rem;
+    background: var(--primaryColor);
+    margin-top: -173px;
+    width: 300px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    text-align: center;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -5px;
+}
+.Custom-cake{
+    margin-left: 52rem;
+    background: var(--primaryColor);
+    margin-top: -173px;
+    width: 300px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    text-align: center;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -5px;
+}
+.background{
+    background: url(./images/90aafa4b-9ebe-46e8-94f0-906298005734.jpeg);
+    min-height: 100vh;
+    min-height: 400px;
+    opacity: 0.6;
+}
+.cards{
+    position: relative;
+    top: 5rem;
+    z-index: 1;
+}
+.summer{
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--mainWhite);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.order-btn{
+    text-align: center;
+    background-color: var(--primaryColor);
+    background-size: 2rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    padding:1rem 2.5rem;
+    position: relative;
+    top: 3rem;
+    left: 35rem;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -9px;
+    cursor: pointer;
+}
+/*last section*/
+.ground{
+    background: url(./images/a2c183f0-748a-4e8f-aec7-62b5506079ba.jpeg) center/cover no-repeat ;
+    min-height: 400px;
+    position: relative;
+    top: 2rem;
+    opacity: 0.6;
+}
+.last{
+    text-align: center;
+    padding-top: 3rem;
+}
+.kombo{
+    text-transform: capitalize;
+    font-family: var(--secondaryslantedText);
+    font-size: 3rem;
+    color: var(--primaryColor);
+}
+.Crispy{
+    padding-top: 0.5rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: var(--slantedText);
+    color: var(--mainWhite);
+}
+.green{
+    position: relative;
+    top: 1rem;
+}
+.par{
+    text-align: center;
+    padding-top: 2rem;
+    line-height: 1.2rem;
+    color: var(--mainWhite);
+}
+.shop-btn{
+    background-color: var(--primaryColor);
+    display: inline-block;
+    font-size: 1rem;
+    color: var(--mainWhite);
+    text-transform: capitalize;
+    padding:1rem 2.5rem;
+    position: relative;
+    top: 0.5rem;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -9px;
+    cursor: pointer; 
+}
+.read-btn{
+position: relative;
+left: 5rem;
+top: 0.5rem;
+background-color: var(--primaryColor);
+display: inline-block;
+font-size: 1rem;
+color: var(--mainWhite);
+text-transform: capitalize;
+padding:1rem 2.5rem;
+outline: 2px solid var(--mainWhite);
+outline-offset: -9px;
+cursor: pointer; 
+}
+/*last-section end*/
