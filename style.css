@@ -225,4 +225,192 @@ body{
     bottom: 1.5rem;
 }
 /*header-section end*/
+/*about section*/
+.about-section{
+    text-align: center;
+    padding-top: 2rem;
+    }
+    .about-us{
+        font-family: var(--secondaryslantedText);
+        color: var(--primaryColor);
+        font-size: 2rem;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+    .title{
+        font-family: var(--slantedText);
+        color: var(--mainDark);
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+.sucess{
+    background: url(./images/9c15a545-020d-4d4b-bb9b-3b6973dea35a.jpeg) no-repeat;
+    background-size: contain;
+    margin-left: 8rem;
 
+}
+.head{
+    padding-left: 27rem;
+    font-family: var(--slantedText);
+    color: var(--mainDark);
+    font-weight: bold;
+}
+.p{
+    padding-left: 27rem;
+    font-family: var(--slantedText);
+    line-height: 1.5rem;
+    padding-top: 1rem;
+}
+#heart-icon{
+    margin-left: 27rem;
+    margin-top: 1rem;
+    background: var(--primaryColor) 2px;
+    color: var(--mainWhite);
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -5px;
+}
+.healthy{
+    padding-left: 27rem;
+    padding-top: 1rem;
+    font-family: var(--slantedText);
+    text-transform: uppercase;
+    }
+    .pa{
+        padding-left: 27rem;
+        line-height: 1.5rem;
+    }
+   #award{
+    margin-left: 27rem;
+    margin-top: 1rem;
+    background: var(--primaryColor) 2px;
+    color: var(--mainWhite);
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -5px;
+   }
+    .winning{
+        padding-left: 27rem;
+        font-family: var(--slantedText);
+        text-transform: uppercase;
+    }
+    .pa-2{
+        padding-left: 27rem;
+        line-height: 1.3rem;
+        padding-top: 0.1rem;
+    }
+.profit{
+    position: relative;
+    background: var(--mainDark);
+    padding-top: 1.2rem;
+    padding-left: 5rem;
+    height: 150px;
+    z-index: 1;
+}
+#star{
+    position: relative;
+    top: 0.5rem;
+    padding-bottom: 1rem;
+    background: var(--primaryColor) 2px;
+    padding: 1rem 1rem;
+    color: var(--mainWhite);
+    font-size: 1.5rem;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -5px;
+}
+.expreience{
+    position: relative;
+    left: 4rem;
+    bottom: 3.4rem;
+    padding-left: 1rem;
+    color: var(--primaryColor);
+    text-transform: uppercase;
+}
+#cookie{
+    position: relative;
+    left: 15rem;
+    bottom: 6.3rem;
+    background: var(--primaryColor) 2px;
+    padding: 1rem 1rem;
+    color: var(--mainWhite);
+    font-size: 1.5rem;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -5px;
+}
+.specialist{
+    position: relative;
+    left: 20rem;
+    bottom: 10.1rem;
+    color: var(--primaryColor);
+    text-transform: uppercase;
+}
+#check{
+    position: relative;
+    left: 32rem;
+    bottom: 12.8rem;
+    background: var(--primaryColor) 2px;
+    padding: 1rem 1rem;
+    color: var(--mainWhite);
+    font-size: 1.5rem;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -5px;
+}
+.project{
+    position: relative;
+    left: 36rem;
+    bottom: 16.5rem;
+    padding-left: 1rem;
+    color: var(--primaryColor);
+    text-transform: uppercase;
+}
+#cup{
+    position: relative;
+    left: 50rem;
+    bottom: 19.5rem;
+    background: var(--primaryColor) 2px;
+    padding: 1rem 1rem;
+    color: var(--mainWhite);
+    font-size: 1.5rem;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -5px;
+}
+.cleints{
+    position: relative;
+    left: 54rem;
+    bottom: 23rem;
+    padding-left: 1rem;
+    color: var(--primaryColor);
+    text-transform: uppercase;
+}
+.numbers-1{
+    position: relative;
+    left: 5rem;
+    bottom: 2.8rem;
+    color: var(--mainWhite);
+    font-weight: bold;
+}
+.numbers-2{
+    position: relative;
+    left: 20rem;
+    bottom: 9.5rem;
+    color: var(--mainWhite);
+    font-weight: bold;
+}
+.numbers-3{
+    position: relative;
+    left: 37rem;
+    bottom: 16rem;
+    color: var(--mainWhite);
+    font-weight: bold;
+}
+.numbers-4{
+    position: relative;
+    left: 55rem;
+    bottom: 22.5rem;
+    color: var(--mainWhite);
+    font-weight: bold;
+}
+/*about-section end*/
