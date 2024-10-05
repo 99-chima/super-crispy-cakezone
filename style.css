@@ -155,3 +155,74 @@ body{
     padding-left: 1rem;
 }
 /*nav-bar section end*/
+/*header section*/
+.header{
+    min-height: 100vh;
+    background: url(./images/a2c183f0-748a-4e8f-aec7-62b5506079ba.jpeg) center/cover no-repeat fixed;
+   position: relative;
+}
+    .banner{
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        text-align:center;
+        transform: translate(-50%,-50%);
+    }
+    .banner-subtitle{
+        font-size: 3.3rem;
+        font-family: var(--secondaryslantedText);
+        color: var(--primaryColor);
+        margin-top: 2rem;
+        margin-right: 3.6rem;
+    }
+    .banner-title{
+        font-size: 4rem;
+        font-family: var(--slantedText);
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    .Cakezone-subtitle{
+        position: relative;
+        font-size: 1.5rem;
+        font-family: var(--slantedText);
+        color: #fff;
+        text-transform: uppercase;
+        top: 0.5rem;
+    }
+    a{
+        text-decoration: none;
+        color: var(--mainWhite);
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .banner-btn{
+        display: inline-block;
+        background-color: var(--primaryColor);
+        background-size: 2rem;
+        font-size: 1.5rem;
+        padding:1rem 2.5rem;
+        margin-top: 2.5rem;
+       outline: 2px solid var(--mainWhite);
+       outline-offset: -9px;
+       cursor: pointer;
+}
+#video-icon{
+    font-size: 2.5rem;
+    color: var(--mainWhite);
+    margin-left: 2rem;
+    padding:1rem 0.9rem;
+    border: 2px solid rgba(0,0, 0, 0.157);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.video{
+    position: relative;
+    margin-left: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    bottom: 1.5rem;
+}
+/*header-section end*/
+
