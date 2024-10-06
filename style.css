@@ -471,4 +471,88 @@ body{
     margin-left: 550px;
    }
    /*menu section end*/
+ /*cards section*/
+.Birthday-cake{
+    margin-left: 10rem;
+    background: var(--primaryColor);
+    width: 300px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    text-align: center;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -5px;
+}
+.Cake{
+    text-transform: uppercase;
+    font-family: var(--slantedText);
+}
+.cakeP{
+    line-height: 1.4rem;
+    padding-top: 0.5rem;
+    color: var(--mainWhite);
+}
+.cake-detail{
+    text-transform: uppercase;
+    padding-top: 1rem;
+}
+#arrow{
+    position: relative;
+    bottom: 1rem;
+    left: 3.5rem;
+}
+.Wedding-cake{
+    margin-left: 31rem;
+    background: var(--primaryColor);
+    margin-top: -173px;
+    width: 300px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    text-align: center;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -5px;
+}
+.Custom-cake{
+    margin-left: 52rem;
+    background: var(--primaryColor);
+    margin-top: -173px;
+    width: 300px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    text-align: center;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -5px;
+}
+.background{
+    background: url(./images/90aafa4b-9ebe-46e8-94f0-906298005734.jpeg);
+    min-height: 100vh;
+    min-height: 400px;
+    opacity: 0.6;
+}
+.cards{
+    position: relative;
+    top: 5rem;
+    z-index: 1;
+}
+.summer{
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--mainWhite);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.order-btn{
+    text-align: center;
+    background-color: var(--primaryColor);
+    background-size: 2rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    padding:1rem 2.5rem;
+    position: relative;
+    top: 3rem;
+    left: 35rem;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -9px;
+    cursor: pointer;
+}
 
