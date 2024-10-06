@@ -555,4 +555,67 @@ body{
     outline-offset: -9px;
     cursor: pointer;
 }
+/*last section*/
+.ground{
+    background: url(./images/a2c183f0-748a-4e8f-aec7-62b5506079ba.jpeg) center/cover no-repeat ;
+    min-height: 400px;
+    position: relative;
+    top: 2rem;
+    opacity: 0.6;
+}
+.last{
+    text-align: center;
+    padding-top: 3rem;
+}
+.kombo{
+    text-transform: capitalize;
+    font-family: var(--secondaryslantedText);
+    font-size: 3rem;
+    color: var(--primaryColor);
+}
+.Crispy{
+    padding-top: 0.5rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: var(--slantedText);
+    color: var(--mainWhite);
+}
+.green{
+    position: relative;
+    top: 1rem;
+}
+.par{
+    text-align: center;
+    padding-top: 2rem;
+    line-height: 1.2rem;
+    color: var(--mainWhite);
+}
+.shop-btn{
+    background-color: var(--primaryColor);
+    display: inline-block;
+    font-size: 1rem;
+    color: var(--mainWhite);
+    text-transform: capitalize;
+    padding:1rem 2.5rem;
+    position: relative;
+    top: 0.5rem;
+    outline: 2px solid var(--mainWhite);
+    outline-offset: -9px;
+    cursor: pointer; 
+}
+.read-btn{
+position: relative;
+left: 5rem;
+top: 0.5rem;
+background-color: var(--primaryColor);
+display: inline-block;
+font-size: 1rem;
+color: var(--mainWhite);
+text-transform: capitalize;
+padding:1rem 2.5rem;
+outline: 2px solid var(--mainWhite);
+outline-offset: -9px;
+cursor: pointer; 
+}
+/*last-section end*/
 
